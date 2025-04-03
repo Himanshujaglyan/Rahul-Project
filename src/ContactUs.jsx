@@ -7,7 +7,7 @@ const ContactUs = () => {
                 <p className="text-gray-700 text-lg mb-4">Don't hesitate to reach out to us – we would love to hear from you.</p>
                 <p className="text-gray-700 text-lg">
                     You can contact us by sending an email to 
-                    <a href="mailto:info@deepware.ai" className="text-blue-600 font-semibold"> info@deepware.ai</a>
+                    <a href="mailto:info@deepware.ai" className="text-black-500 font-semibold"> info@deepware.ai</a>
                 </p>
             </div>
         </div>

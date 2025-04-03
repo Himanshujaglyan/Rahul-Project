@@ -14,7 +14,7 @@ const FirstContainer = () => {
         <p className="mt-2 text-gray-700">
           <span className="font-bold">Contact Us</span> for on-premise solutions.
         </p>
-        <button className="mt-6 bg-red-600 text-white px-6 py-3 font-semibold rounded-md hover:bg-red-700 transition">
+        <button className="mt-6 bg-red-500 text-white px-6 py-3 font-semibold rounded-md hover:bg-red-700 transition">
           GO TO SCANNER
         </button>
       </div>

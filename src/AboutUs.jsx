@@ -12,7 +12,7 @@ const AboutUs = () => {
                 researched methods to develop an AI-based antivirus engine. Later, in mid-2018, 
                 we started our research on deepfake detection and generation as the deepware AI team.
             </p>
-            <button className="bg-red-600 text-white px-6 py-2 rounded-sm font-semibold hover:bg-red-700">
+            <button className="bg-red-500 text-white px-6 py-2 rounded-sm font-semibold hover:bg-red-700">
                 CONTACT US
             </button>
         </div>
