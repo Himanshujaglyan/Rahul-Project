@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center p-4 border-b shadow-sm">
       <h1 className="text-2xl font-bold text-gray-800">deepware<sup className="text-xs">®</sup></h1>
       <div className="flex gap-6">
-        <a href="/pagi-gen" className="text-sm font-semibold text-gray-600 hover:text-red-500">PAGI GEN</a>
+        <a href="https://www.pagi.ai/" className="text-sm font-semibold text-gray-600 hover:text-red-500">PAGI GEN</a>
         <a href="/deepware-scanner" className="text-sm font-semibold text-gray-600 hover:text-red-500">DEEPWARE SCANNER</a>
         <a href="/about-us" className="text-sm font-semibold text-gray-600 hover:text-red-500">ABOUT US</a>
       </div>
