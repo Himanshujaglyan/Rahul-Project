@@ -7,6 +7,7 @@ import "./App.css"; // Ya jo bhi tera CSS file ho
 const App = () => {
   return (
     <div>
+      <h1>Himanshu</h1>
       <Navbar/>
       <MiddleContainer/>
       <Footer/>
