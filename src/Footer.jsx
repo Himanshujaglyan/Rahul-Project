@@ -6,7 +6,7 @@ const Footer = ()=> {
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           {/* Logo */}
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold text-gray-400">Unmask.ai</h2>
+            <h1 className="text-2xl font-bold text-gray-400">Unmask.ai</h1>
           </div>
           
           {/* Links Section */}
