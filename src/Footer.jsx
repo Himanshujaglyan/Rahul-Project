@@ -28,7 +28,7 @@ const Footer = ()=> {
 
         {/* Address and Legal Links */}
         <div className="mt-6 border-t border-gray-700 pt-4 text-xs flex flex-col md:flex-row justify-between items-center">
-          <p className="text-center md:text-left">Adress: Icerenkoy Mah. Quick Tower No:8-10d Atasehir/Istanbul - 2025 &copy; Deepware A.S. All rights reserved.</p>
+          <p className="text-center md:text-left">Adress: Icerenkoy Mah. Quick Tower No:8-10d Atasehir/Istanbul - 2025 &copy; Unmask.ai A.S. All rights reserved.</p>
           <div className="flex space-x-4 mt-2 md:mt-0">
             <a href="#" className="hover:text-white">Privacy Policy</a>
             <a href="#" className="hover:text-white">Terms of Service</a>
