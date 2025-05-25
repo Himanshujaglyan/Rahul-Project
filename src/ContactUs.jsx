@@ -7,6 +7,7 @@ const ContactUs = () => {
       <h1 className="text-3xl font-bold mb-6 text-[#3B2F26]">
         Let's talk about deepfakes!
       </h1>
+
       <div
         className="p-6 shadow-lg text-center w-11/12 max-w-screen-lg rounded-lg mb-8"
         style={{ backgroundColor: "#3B2F26" }} // Dark brown box
@@ -18,7 +19,7 @@ const ContactUs = () => {
           Don't hesitate to reach out to us — we would love to hear from you.
         </p>
         <p className="text-[#FAF5E5] text-lg">
-          You can contact us by sending an email to
+          You can contact <strong>Rahul Kaushik</strong> by sending an email to
           <a
             href="mailto:info@deepware.ai"
             className="text-red-400 font-semibold ml-1 underline"
@@ -29,11 +30,14 @@ const ContactUs = () => {
       </div>
 
       {/* Image Section */}
-      <div className="w-11/12 max-w-screen-lg shadow-md rounded-lg overflow-hidden">
+      <div
+        className="w-11/12 max-w-screen-lg shadow-md rounded-lg overflow-hidden p-4 mb-4"
+        style={{ backgroundColor: "#3B2F26" }} // ✅ Match navbar color
+      >
         <img
-          src="/screenshot.jpeg" // ✅ Make sure this matches the actual file
+          src="/screenshot.jpeg"
           alt="Screenshot"
-          className="w-full h-auto"
+          className="w-full h-auto rounded-md"
         />
       </div>
     </div>
