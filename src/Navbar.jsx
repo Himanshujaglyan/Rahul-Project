@@ -2,14 +2,42 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-4 border-b shadow-sm">
-      <h1 className="text-2xl font-bold text-gray-800">Unmask.ai<sup className="text-xs">®</sup></h1>
+    <nav className="flex justify-between items-center p-4" style={{ backgroundColor: "#3B2F26" }}>
+      <h1 className="text-2xl font-bold" style={{ color: "#FAF5E5" }}>
+        Unmask.ai<sup className="text-xs">®</sup>
+      </h1>
       <div className="flex gap-6">
-        <a href="https://www.pagi.ai/" className="text-sm font-semibold text-gray-600 hover:text-red-500">PAGI GEN</a>
-        <a href="/deepware-scanner" className="text-sm font-semibold text-gray-600 hover:text-red-500">UNMASK.AI SCANNER</a>
-        <a href="/about-us" className="text-sm font-semibold text-gray-600 hover:text-red-500">ABOUT US</a>
+        <a
+          href="https://www.pagi.ai/"
+          className="text-sm font-semibold hover:underline"
+          style={{ color: "#FAF5E5" }}
+        >
+          PAGI GEN
+        </a>
+        <a
+          href="/deepware-scanner"
+          className="text-sm font-semibold hover:underline"
+          style={{ color: "#FAF5E5" }}
+        >
+          UNMASK.AI SCANNER
+        </a>
+        <a
+          href="/about-us"
+          className="text-sm font-semibold hover:underline"
+          style={{ color: "#FAF5E5" }}
+        >
+          ABOUT US
+        </a>
       </div>
-      <a href="/contact-us" className="border border-gray-600 px-4 py-2 rounded-md text-sm font-semibold text-gray-800 hover:bg-gray-100">
+      <a
+        href="/contact-us"
+        className="px-4 py-2 rounded-md text-sm font-semibold hover:opacity-90"
+        style={{
+          backgroundColor: "#3B2F26",
+          border: "1px solid #FAF5E5",
+          color: "#FAF5E5",
+        }}
+      >
         CONTACT US
       </a>
     </nav>
