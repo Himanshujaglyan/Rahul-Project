@@ -19,7 +19,7 @@ const Navbar = () => {
           className="text-sm font-semibold hover:underline"
           style={{ color: "#FAF5E5" }}
         >
-          UNMASK.AI SCANNER
+           SCANNER
         </a>
         <a
           href="/about-us"
