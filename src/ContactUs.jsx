@@ -24,7 +24,7 @@ const ContactUs = () => {
             href="mailto:info@deepware.ai"
             className="text-red-400 font-semibold ml-1 underline"
           >
-            info@Unmask.ai
+            rahulkaushikg07@gmail.com
           </a>
         </p>
       </div>
