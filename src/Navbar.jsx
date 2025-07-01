@@ -7,13 +7,7 @@ const Navbar = () => {
         Unmask.ai<sup className="text-xs">®</sup>
       </h1>
       <div className="flex gap-6">
-        <a
-          href="https://www.pagi.ai/"
-          className="text-sm font-semibold hover:underline"
-          style={{ color: "#FAF5E5" }}
-        >
-          PAGI GEN
-        </a>
+        
         <a
           href="/deepware-scanner"
           className="text-sm font-semibold hover:underline"
